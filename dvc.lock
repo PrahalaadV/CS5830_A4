@@ -1,0 +1,23 @@
+schema: '2.0'
+stages:
+  process:
+    cmd: python files/process.py
+    deps:
+    - path: files/process.py
+      hash: md5
+      md5: bd099b76a58a1275c740267d26a834d7
+      size: 534
+  evaluate:
+    cmd: python files/evaluate.py
+    deps:
+    - path: files/evaluate.py
+      hash: md5
+      md5: 47a025ed48c8d95b890e4ea8eb224925
+      size: 766
+  prepare:
+    cmd: python files/prepare.py
+    deps:
+    - path: files/prepare.py
+      hash: md5
+      md5: 0e25d9bf0a90e0bc582aa490577e9e91
+      size: 1158

@@ -1,0 +1,5 @@
+outs:
+- md5: 4d1c3f7bad80780f4b13cc4195537b21
+  size: 1070
+  hash: md5
+  path: process.py
